@@ -1,0 +1,83 @@
+body{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	background: url('kepek/hatter.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+*, * ::before, *::after{
+	box-sizing: border-box;
+	margin: 0; 
+	padding: 0;
+}
+img{
+	max-width: 100%;	
+	margin: 0; 
+	padding: 0;	
+}
+main{
+	text-align: center;
+}
+.gombok{
+	float: middle;	
+	border: 2px solid #000;
+	display: inline-block;
+	padding: 2rem 1rem ;
+	margin: 1rem;
+	background-color: rgb(122,122,122);
+	border-radius:2rem 0.3rem 2rem 0.3rem;
+	text-align: center;
+	width: 20%;
+	font:500 40px/35px arial, times new roman;
+	font-weight: bold;
+	transition: 0.3s;
+	min-width: max-content;
+}
+
+.gombok a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: white;
+}
+.kislogo{
+	border-bottom: 2px solid darkblue;
+	background-color: rgb(103,169,191);
+	padding-right: 0px;
+}
+.tartalom{
+	border: 4px solid #969696;
+	background-color: rgb(210,210,210,0.87);
+	max-width: 1000px;
+	margin: 60px auto ;
+	padding: 15px;
+}
+.tartalom img{
+	display: block;
+	max-height:30rem;
+	max-width: 100%;
+	margin: 50px auto 20px auto;
+	border:1px solid black;
+}
+.megjegyzes{
+	font-size: medium;
+	margin-bottom: 20px;
+}
+
+.nyitoszoveg{
+	
+	border: 2px solid black;
+	background:rgb(228,216,124);
+	padding: 10px;
+	font-size: large;
+	margin:15px;
+}
+.tervek{
+	margin: 3px 0 15px 40px ;
+	list-style-type: square;
+
+}
+.linkek  {
+	margin: 10px;
+}
